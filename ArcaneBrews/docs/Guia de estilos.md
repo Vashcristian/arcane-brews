@@ -66,3 +66,7 @@
 ### Badge de Estado
 - Siempre ícono + texto (nunca solo color) (WCAG 1.4.1)
 - Estados: Entregado, En camino, Pendiente, Cancelado
+
+#### Se utilizo IA para identificar opciones para fuentes de letra y paleta de colores que evocaran la tematica medieval al estido de Dungeon and Dragons.
+
+OpenAI. (2026). ChatGPT (Versión del 14 de marzo) [Modelo de lenguaje grande]. https://chatgpt.com
