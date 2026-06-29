@@ -1,0 +1,100 @@
+@startuml Arcane-Brews-Componentes
+
+!theme plain
+skinparam backgroundColor #F5F0E8
+skinparam componentStyle rectangle
+
+title Diagrama de Componentes — Arcane Brews SPA
+
+package "SPA Shell" {
+  [Skip Link] as SL
+  [Header/Nav] as HDR
+  [Breadcrumb] as BC
+  [Footer] as FTR
+}
+
+package "Vista: Inicio" {
+  [Hero Banner] as HERO
+  [Seccion Categorias] as CAT
+  [Seccion Pociones Destacadas] as POC
+}
+
+package "Vista: Catalogo" {
+  [Barra Filtros] as BF
+  [Panel Lateral] as PL
+  [Grid Pociones] as GP
+  [Paginacion] as PAG
+}
+
+package "Vista: Detalle" {
+  [Imagen Producto] as IMG
+  [Info Producto] as INFO
+  [Contador Cantidad] as CNT
+  [Alerta Carrito] as ALRT
+  [Seccion Descripcion] as DESC
+  [Seccion Resenas] as RES
+}
+
+package "Vista: Formulario" {
+  [Resumen Pedido] as RP
+  [Form Envio] as FE
+  [Field Default] as FD
+  [Field Error] as FER
+}
+
+package "Vista: Perfil" {
+  [Seccion Perfil] as SP
+  [Estadisticas] as EST
+  [Lista Pedidos] as LP
+  [Badge Estado] as BE
+}
+
+package "Componentes Base" {
+  [Btn Primary] as BTN
+  [Card Pocion] as CARD
+  [Field Input] as FI
+  [Badge] as BDG
+}
+
+' Relaciones SPA Shell
+SL --> HDR
+HDR --> BC
+BC --> FTR
+
+' Relaciones Inicio
+HERO --> BTN
+CAT --> CARD
+POC --> CARD
+
+' Relaciones Catalogo
+BF --> GP
+PL --> GP
+GP --> CARD
+GP --> PAG
+
+' Relaciones Detalle
+INFO --> BTN
+INFO --> CNT
+BTN --> ALRT
+DESC --> RES
+
+' Relaciones Formulario
+FE --> FD
+FE --> FER
+FE --> BTN
+RP --> FE
+
+' Relaciones Perfil
+SP --> EST
+SP --> LP
+LP --> BE
+LP --> BTN
+
+' Componentes base usados globalmente
+BTN ..> HDR : usado en
+CARD ..> POC : usado en
+CARD ..> GP : usado en
+FI ..> FE : usado en
+BDG ..> LP : usado en
+
+@enduml
