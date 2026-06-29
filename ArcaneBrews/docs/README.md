@@ -19,7 +19,7 @@ Arcane Brews — Tienda de pociones para magos y aventureros.
 
 ## Roles de usuario
 1. Mago Invidente — lector de pantalla
-2. Aprendiz con Temblor — navegación por teclado
+2. Aprendiz — navegación por teclado
 3. Alquimista Mayor — baja visión
 4. Druida con Conexión Lenta — internet limitado
 
