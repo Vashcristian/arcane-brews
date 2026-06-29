@@ -10,7 +10,7 @@
 
 | **Rol** | **Descripción** | **Necesidad de Accesibilidad** |
 |---|---|---|
-| **Mago Invidente** | Usuario avanzado que compra pociones frecuentemente | Usa lector de pantalla (NVDA/JAWS). Necesita ARIA labels, orden lógico de foco, imágenes con alt text descriptivo |
+| **Mago Invidente** | Usuario 1 avanzado que compra pociones frecuentemente | Usa lector de pantalla (NVDA/JAWS). Necesita ARIA labels, orden lógico de foco, imágenes con alt text descriptivo |
 | **Aprendiz de mago** | Usuario nuevo con problemas de parkinson | Navega solo con teclado, sin ratón. Necesita áreas de clic grandes (mín. 44x44px), skip links, sin time-outs |
 | **Alquimista Mayor** | Usuario adulto mayor con baja visión | Necesita contraste alto (4.5:1+), texto escalable hasta 200% sin romper layout, fuente mínimo 16px |
 | **Druida con Conexión Lenta** | Usuario en zona rural con internet limitado | Necesita carga optimizada, imágenes comprimidas, feedback de carga visible, sin autoplay |
