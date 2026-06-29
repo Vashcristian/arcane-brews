@@ -50,3 +50,6 @@ Druida con conexión lenta quiere que el historial de pedidos cargue con indicad
 | **Should** | Caso 3, 4 | Zoom 200%, confirmación en carrito |
 | **Could** | Caso 7 | Indicador de carga en pedidos |
 | **Won't** | - | Modo oscuro automático, traducción automática |
+
+Se utilizo IA para generar casos segun los criterios de accesibilidad WCAG 2.2 AA
+OpenAI. (2026). ChatGPT (Versión del 14 de marzo) [Modelo de lenguaje grande]. https://chatgpt.com
