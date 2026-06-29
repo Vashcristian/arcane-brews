@@ -117,3 +117,7 @@ como pedidos y carrito.
 estado al usuario en todo momento.
 
 **Patrón aplicado:** Live regions para contenido dinámico.
+
+#### Se utilizo IA para identificar opciones para fuentes de letra y paleta de colores que evocaran la tematica medieval al estido de Dungeon and Dragons.
+
+OpenAI. (2026). ChatGPT (Versión del 14 de marzo) [Modelo de lenguaje grande]. https://chatgpt.com
